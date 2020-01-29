@@ -4,81 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Gerald's Personal Web Page</title>
+    <title>Gerald Bell</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap"
+      rel="stylesheet"
+    />
   </head>
-
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td>
-          <img
-            src="GBELL3.jpg"
-            alt="Picutre of Gerald"
-          />
-        </td>
-        <td>
-          <h1>Gerald Bell</h1>
+    <div class="topContainer">
+      <img class="top-cloud" src="images/cloud.png" alt="image-cloud" />
+      <h1>I'm Gerald.</h1>
+      <h2>a Software Developer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="image-cloud" />
+      <img class="mountain" src="images/mountain.png" alt="image-mountain" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="images/download3.png" alt="profile-pic" />
+        <h2>Hello.</h2>
+        <p class="intro">
+          A software developer that is passionate about web design and function.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img id="computer" src="images/computer.png" alt="" />
+          <h3>PostgresSQL/ SQLite/ SQL/ MYSQL</h3>
           <p>
-            <em>Software Developer,
-              <strong>Husband and Loving Father</a
-                ></strong></em>
+            At university I took an honors level databse class that focused on MYSQL, additionally I have extensive experience with PostgresSQL, SQLite and SQL.
           </p>
+        </div>
+        <div class="skill-row">
+          <img id="java" src="images/java.png" alt="java" />
+          <h3>Java</h3>
           <p>
-            Work at AT&T in my ninth year with the company working as a software
-            developer/ POD product owner delegate
+            Data structures are one of many important topics I covered while learning Java, they solve real-world business problems.
           </p>
-        </td>
-      </tr>
-    </table>
+        </div>
+        <div class="skill-row">
+          <img id="python" src="images/python.png" alt="python" />
+          <h3>Python</h3>
+          <p>
+            Python is a lightweight, yet powerful programming language that is ideal for building web apps and microservices.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Freelance Software Developer.</h3>
+        <p class="contact-message">
+          I would love to help you build your web prescence!
+        </p>
+        <a class="btn" href="mailto:kennyskywalker@att.net">CONTACT ME</a>
+      </div>
+    </div>
 
-    <hr />
-    <h3>Education</h3>
-    <ul>
-      <li>Warner Southern Univeristy</li>
-      <li>Strayer Univeristy</li>
-      <li>JWMI</li>
-    </ul>
-    <hr />
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Title</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>January 2011</td>
-          <td>AT&T Gainesville, Ga.</td>
-        </tr>
-        <tr>
-          <td>Febuary 2019</td>
-          <td>AT&T Atlanta, Ga.</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>SQL</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>PostgreSQL</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Java</td>
-        <td>⭐⭐⭐</td>
-      </tr>
-
-      <tfoot></tfoot>
-    </table>
-    <hr />
-    <a href="hobbies.html">Hobbies</a>
-    <br />
-    <a href="contact.html">Contact Me</a>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/ksw91/"
+        >LinkedIn</a
+      >
+      <a class="footer-link" href="https://twitter.com/Sky_Walker91">Twitter</a>
+      <a class="footer-link" href="">Website</a>
+      <p class="copyright">© 2020 Gerald Bell.</p>
+    </div>
   </body>
 </html>
